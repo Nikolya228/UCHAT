@@ -1,0 +1,130 @@
+.background{
+    background-image: none;
+    background-color: #33314B;
+}
+*{
+    outline:none;
+    border-style: none;
+    border: none;
+}
+.buttons{
+    background-image: image(#33314B); 
+    border: 2px solid #B7A5FF;
+    color: #B7A5FF;
+
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buttons:hover {
+    background-image: image(#B7A5FF);
+    border-color: #33314B;
+    color: #33314B;
+}
+.settings{
+    background-image: image(#33314B);
+    border-radius: 0px;
+}
+.settings:hover{
+    background-image: image(#B7A5FF);
+    border-radius: 0px;
+}
+
+.searchName:not(:focus){
+    outline: none;
+    box-shadow: none;
+    /* border-radius: 0px; */
+}
+.searchName:focus{
+    box-shadow: inset 0px 2px 0px #33314B,
+                inset 2px 0px 0px #33314B,
+                inset 0px -2px 0px #33314B;
+    /* box-shadow: none; */
+    background-image: image(#B7A5FF);
+    border-radius: 0px;
+}
+
+.search_div{
+    background-color: #33314B;
+    color: #B7A5FF;
+}
+/* .search_image{
+    background-image: url("glade_img/search_img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+.Gh{
+    background-color: #B7A5FF;
+}
+
+.nameChats{
+    border-radius: 0;
+    background-image: image(#B7A5FF);
+    box-shadow: inset 0px 0px;
+}
+
+
+.login_entry, #login_entry {
+    background-image: image(white);
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: #33314B;
+    padding: 4px 12px;
+}
+
+.login_entry:focus, #login_entry:focus {
+    background-image: image(#B7A5FF);
+}
+
+
+.refresh {
+    background-image: image(#5e6e7d);
+    border: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.refresh:hover {
+    color: #B7A5FF;
+}
+
+.game_message_entry {
+    background-image: image(#2e2e37);
+    border: 2px solid #5fcde4; 
+    color: rgb(255, 255, 255);
+
+
+    transition: 0.3s;
+}
+
+.game_message_entry:focus {
+    background-image: image(#408b9a);
+}
+
+.button{
+    background-image: image(#9683e2); 
+    border: 2px solid white;
+    color: #33314B;
+
+    border-radius: 0px;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-image: image(#33314B);
+    border-color: #B7A5FF;
+    color: #B7A5FF;
+}
+
+.ss, #login_entry {
+    border-radius: 0px;
+}
+
+.povidomlennya {
+    background-image: image(#cf186d);
+}

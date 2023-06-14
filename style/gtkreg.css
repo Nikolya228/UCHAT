@@ -1,0 +1,7 @@
+.background{
+    background-image: url("glade_img/regbg.jpg");
+    background-size: cover;
+}
+.GtkEntry2{
+    font-size: 20px;
+}
